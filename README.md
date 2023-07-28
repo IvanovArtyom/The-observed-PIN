@@ -54,7 +54,8 @@ public class Kata
         return FindAllPins(new List<string>(), "", numbers, observed.Length);
     }
 
-    public static List<string> FindAllPins(List<string> result, string currentSequence, string[] availableNumbers, int length)
+    public static List<string> FindAllPins(List<string> result, string currentSequence,
+        string[] availableNumbers, int length)
     {
         if (currentSequence.Length == length)
         {
